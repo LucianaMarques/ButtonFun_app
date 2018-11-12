@@ -15,7 +15,6 @@ class ViewController: UIViewController
         let title = sender.title(for: .selected)!
         let text = "\(title) button pressed"
         statusLabel.text = text
-        
     }
     
 }
